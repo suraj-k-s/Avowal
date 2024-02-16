@@ -1,0 +1,41 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  @media only screen and (min-width: 768px) { 
+    .App-header {
+      background-image: url('./Assets/bg.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }

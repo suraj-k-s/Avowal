@@ -1,0 +1,24 @@
+.BoxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .PaperContainer {
+    width: 90%;
+    max-width: 500px; 
+    padding: 20px;
+  }
+  
+  .smallBox {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .PaperContainer {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+  
